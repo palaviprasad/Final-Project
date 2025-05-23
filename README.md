@@ -10,6 +10,9 @@ Live Website: [Final Portfolio Website] (https://palaviprasad.github.io/Final-Po
 
 GitHub Repository: [View the Code] (https://github.com/palaviprasad/Final-Portfolio-Website.git)
 
+Check out my [Final Portfolio Website](https://palaviprasad.github.io/Final-Portfolio-Website/) to see all my projects in action.
+
+
 What’s Included in the Portfolio
 A professional home page introducing me and my work
 
