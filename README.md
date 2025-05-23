@@ -6,8 +6,8 @@ About This Project
 This portfolio is the culmination of my learning and growth as a developer throughout the year. It showcases not only the technical skills I’ve developed but also the creativity and problem-solving I’ve applied to each project. Through this process, I’ve gained a deeper understanding of web development—from planning layouts and structuring content to debugging and refining user interfaces.
 
 Live Site & Repository
-Live Website: [Final Portfolio Website]
-GitHub Repository: [View the Code]
+Live Website: [Final Portfolio Website] (https://palaviprasad.github.io/Final-Portfolio-Website/)
+GitHub Repository: [View the Code] (https://github.com/palaviprasad/Final-Portfolio-Website.git)
 
 What’s Included in the Portfolio
 A professional home page introducing me and my work
