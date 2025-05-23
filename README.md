@@ -7,6 +7,7 @@ This portfolio is the culmination of my learning and growth as a developer throu
 
 Live Site & Repository
 Live Website: [Final Portfolio Website] (https://palaviprasad.github.io/Final-Portfolio-Website/)
+
 GitHub Repository: [View the Code] (https://github.com/palaviprasad/Final-Portfolio-Website.git)
 
 What’s Included in the Portfolio
@@ -15,8 +16,6 @@ A professional home page introducing me and my work
 An “About” section with insights into my journey as a student developer
 
 A “Projects” section featuring the work I’ve completed throughout the year
-
-A contact section where visitors can connect with me
 
 Responsive design for a seamless experience across devices
 
