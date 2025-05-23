@@ -1,9 +1,9 @@
 Final Portfolio Website
 Created by: Palavi P.
 About Me
-Hi! I’m Palavi P., a student developer with a growing passion for building creative, user-friendly web experiences. Over the past year, I’ve been honing my skills in front-end development, exploring HTML, CSS, JavaScript, and basic design principles. I enjoy turning ideas into interactive digital projects that reflect both functionality and thoughtful design.
+Hi! I’m Palavi P., a student at Mt.Eden, taking AP Computer Science. Throughout the whole year I learned how to use JS, CSS, and HTML. I also used more concepts to create those projects. 
 About This Project
-This portfolio is the culmination of my learning and growth as a developer throughout the year. It showcases not only the technical skills I’ve developed but also the creativity and problem-solving I’ve applied to each project. Through this process, I’ve gained a deeper understanding of web development—from planning layouts and structuring content to debugging and refining user interfaces.
+This portfolio is the culmination of my learning and growth as a developer throughout the year. It showcases not only the technical skills I’ve developed but also the creativity and problem-solving I’ve applied to each project. 
 
 Live Site & Repository
 Live Website: [Final Portfolio Website](https://palaviprasad.github.io/Final-Portfolio-Website/)
@@ -22,10 +22,10 @@ Responsive design for a seamless experience across devices
 
 Featured Projects
 1. Notes App
-A simple yet functional application that lets users create, search, and manage personal notes. Features include automatic timestamping, responsive layout, and a sleek, minimal design.
-2. Weather Dashboard
-A JavaScript-powered dashboard that fetches real-time weather data from an API. Users can search any city to view current conditions and a 5-day forecast, with icons and temperature metrics.
-3. Color Palette Generator
-An interactive tool for designers that randomly generates color palettes. Users can lock colors, copy hex codes, and refresh the palette for new inspiration.
-4. To-Do List App
-A clean, interactive to-do list that helps users manage tasks. Features include task creation, completion toggles, and the ability to remove tasks—all built with vanilla JavaScript.
+A simple notes app that you can add or delete. It is quick and easy for simple reminders.  
+2. Citing Source
+A place where you can add your link and other information for a simple APA citing source. 
+4. Stopwatch 
+Simple stopwath, you can start, pause, and resume. A very minimalist stlye.
+5. Hangman Game
+A guessing word game. It's a simple and fun challenge. 
