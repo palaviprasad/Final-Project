@@ -1,0 +1,155 @@
+/* Base Reset and Font */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fb6f92; /* Pastel pink */
+}
+
+/* Main Game Container */
+.container {
+  font-size: 16px;
+  background-color: #ff8fab;
+  width: 90vw;
+  max-width: 34em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 3em;
+  border-radius: 0.6em;
+  box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.25);
+}
+
+/* Category Buttons */
+#options-container {
+  text-align: center;
+}
+
+#options-container div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2em 0 2.4em 0;
+}
+
+#options-container button {
+  padding: 0.6em 1.2em;
+  border: 3px solid #ffb3c6;
+  background-color: #ffb3c6;
+  color: #000000;
+  border-radius: 0.3em;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#options-container button:hover {
+  background-color: #ffc2d1;
+  color: #333;
+}
+
+#options-container button:disabled {
+  border: 3px solid #808080;
+  color: #808080;
+  background-color: #ffc2d1;
+}
+
+#options-container button.active {
+  background-color: #ffc2d1;
+  border: 3px solid #000000;
+  color: #fff;
+}
+
+/* Letters Grid */
+.letter-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6em;
+}
+
+#letter-container button {
+  height: 2.4em;
+  width: 2.4em;
+  border-radius: 0.3em;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+#letter-container button:hover {
+  background-color: #ffe5ec;
+}
+
+/* Result Section */
+#user-input-section {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+  margin: 0.6em 0 1.2em 0;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  border: 10px solid #ffc2d1;
+  border-radius: 10px;
+}
+
+/* Result Message */
+#result-text h2 {
+  font-size: 1.8em;
+  text-align: center;
+  color: #fff;
+}
+
+/* Win / Lose Message */
+.win-msg,
+.lose-msg {
+  color: #ffb3c6;
+  font-weight: bold;
+}
+
+/* Splash */
+.splash {
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 95%;
+  width: 95%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 600ms;
+}
+
+/* Splash Screen */
+#splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffe5ec;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  z-index: 1000;
+  transition: opacity 1s ease-out;
+}
+
+/* Hide splash screen */
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
