@@ -11,7 +11,7 @@ Hi! I’m Palavi P., a student at Mt.Eden, taking AP Computer Science. Throughou
 This portfolio is the culmination of my learning and growth as a developer throughout the year. It showcases not only the technical skills I’ve developed but also the creativity and problem-solving I’ve applied to each project. 
 
 # Live Site & Repository
-- Live Webpage: [Final Portfolio Website](https://palaviprasad.github.io/Final-Portfolio-Website/)
+- Live Webpage: [Final Portfolio Website](https://palaviprasad.github.io/Final-Project/)
 
 - GitHub Repository: [View the Code](https://github.com/palaviprasad/Final-Portfolio-Website.git)
 
