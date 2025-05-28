@@ -1,0 +1,36 @@
+
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--   title of the webpage -->
+  <title>APA CITING SOURCE</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <h1>
+<!--     container where the author, link, title, and date are stored -->
+    <div class="container"> 
+      <h1>APA CITING SOURCE</h1>
+<!--       creating a header and then the input for where the user will fill in the blanks -->
+      <label for="Author">Author(s) Last, F, M:</label>
+      <input type="text" id="author" placeholder="Doe, John">
+      <label for="year">Year of Publication:</label>
+      <input type="text" id="year" placeholder="2006">
+      <label for="Title">Article Title:</label>
+      <input type="text" id="Title" placeholder="Roblox">
+      <label for="link">URL:</label>
+      <input type="text" id="link" placeholder="https://roblox.com">
+<!--       creating a button for generating their citation and a copy button -->
+      <button 
+        onclick="generateCitation()">Generate Citation</button>
+       <p id="citation"></p>
+       <button id="copyBtn" style="display: non;" onclick="copyCitation()">Copy Citation</button>
+    </div>
+<!--     created another container which has the saved citations for the local storage -->
+    <div class="containerTwo"> 
+    <ul id="savedCitations"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
