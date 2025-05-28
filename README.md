@@ -1,4 +1,4 @@
-## Final Portfolio Website
+# Final Portfolio Website
 
 # About Me
 Hi! I’m Palavi P., a student at Mt.Eden, taking AP Computer Science. Throughout the whole year I learned how to use JS, CSS, and HTML. I also used more concepts to create those projects. 
