@@ -1,59 +1,42 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap'); */
-
 body {
-  background: #ffd1dc; /* Pastel pink */
-  font-family: 'Courier Prime', monospace;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-/* Stopwatch Container */
-.stopwatch {
-  width: 90%;
-  max-width: 600px;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.1)), 
-    url('https://images.unsplash.com/photo-1503455637927-730bce8583c0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGluayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding: 40px 20px;
-  color: white;
-  margin: 120px auto;
-  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
-  border-radius: 10px;
-}
-
-/* Timer Heading */
-.stopwatch h1 {
-  margin-top: 30px;
-  font-size: 64px;
-  font-weight: 300;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-}
-
-/* Control Buttons */
-.buttons {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffeef5; 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-  gap: 20px;
+  height: 100vh;
+  margin: 0;
 }
 
-/* Control Button Icons */
-.buttons img {
+.stopwatch-container {
+  background: #ffffff;
+  padding: 50px 120px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.2);
+  text-align: center;
+}
+
+#display {
+  font-size: 4em;
+  margin-bottom: 20px;
+  color: #d63384; 
+}
+
+.buttons button {
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5em;
   width: 60px;
-  height: auto;
+  height: 60px;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  color: white;
+  background-color: #ff69b4; 
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.buttons img:nth-child(2) {
-  width: 80px;
-}
-
-.buttons img:hover {
+.buttons button:hover {
+  opacity: 0.9;
   transform: scale(1.1);
 }
