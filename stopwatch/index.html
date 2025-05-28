@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Stopwatch</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="stopwatch-container">
-    <h1 id="display">00:00:00</h1>
+    <h1 id="displayTime">00:00:00</h1>
     <div class="buttons">
-      <button id="start" title="Start"><i class="fas fa-play"></i></button>
-      <button id="stop" title="Stop"><i class="fas fa-stop"></i></button>
-      <button id="reset" title="Reset"><i class="fas fa-rotate-right"></i></button>
+      <button onclick="watchStart()" title="Start"><i class="fas fa-play"></i></button>
+      <button onclick="watchStop()" title="Stop"><i class="fas fa-stop"></i></button>
+      <button onclick="watchReset()" title="Reset"><i class="fas fa-rotate-right"></i></button>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
