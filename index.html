@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,46 +7,56 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Hello, I'm Palavi!</h1>
-    <p>Student at Mt.Eden High School</p>
-  </header>
+  <div class="grid-container">
+    <header class="box header">
+      <h1>Hello, I'm Palavi!</h1>
+      <p>Student at Mt.Eden High School</p>
+    </header>
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I'm a Junior in high school taking the class AP Computer Science. Throughout the whole school I learned a lot taking this class, working with c++, html, javascript, and c++. By using all of these I came to an understanding of how these work. I made a stopwatch, a citing source, notes app, and hangman. I used multiple concepts to make all of these projects.</p>
-  </section>
+    <aside class="box sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </aside>
 
-  <section class="projects">
-    <h2>Project Gallery</h2>
-    
-    <div class="project">
-      <h3>Notes App 🗒️</h3>
-      <p>A notes app that lets you create and delete text notes.</p>
-      <a href="notes-app/index.html" target="_blank">Try the Notes App</a>
-    </div>
+    <section id="about" class="box about content1">
+      <h2>About Me</h2>
+      <p>I'm a Junior in high school taking AP Computer Science. I’ve worked with C++, HTML, and JavaScript. My projects include a stopwatch, a citing tool, a notes app, and a hangman game.</p>
+    </section>
 
-    <div class="project">
-      <h3>Stopwatch ⏱️</h3>
-      <p>A digital stopwatch built using JavaScript. Start, stop, and reset time.</p>
-      <a href="stopwatch/index.html" target="_blank">Use the Stopwatch</a>
-    </div>
+    <section id="projects" class="box projects content2">
+      <h2>Project Gallery</h2>
 
-    <div class="project">
-      <h3>Hangman Game 🚶‍♂️</h3>
-      <p>A classic word guessing game. A simple fun challenge!</p>
-      <a href="hangman/index.html" target="_blank">Play Hangman</a>
-    </div>
+      <div class="project">
+        <h3>Notes App 🗒️</h3>
+        <p>A notes app that lets you create and delete text notes.</p>
+        <a href="https://codepen.io/Palavi-Prasad/full/mydZdVR" target="_blank">Try the Notes App</a>
+      </div>
 
-    <div class="project">
-      <h3>Source Citing Tool 📖</h3>
-      <p>Tool to help you cite sources properly in MLA format.</p>
-      <a href="source-citing/index.html" target="_blank">Try the Citing Tool</a>
-    </div>
-  </section>
+      <div class="project">
+        <h3>Stopwatch ⏱️</h3>
+        <p>A digital stopwatch built using JavaScript. Start, stop, and reset time.</p>
+        <a href="https://codepen.io/Palavi-Prasad/full/qEBjgew" target="_blank">Use the Stopwatch</a>
+      </div>
 
-  <footer>
-    <p>© 2025 Palavi Prasad | Portfolio Website</p>
-  </footer>
+      <div class="project">
+        <h3>Hangman Game 🚶‍♂️</h3>
+        <p>A classic word guessing game. A simple fun challenge!</p>
+        <a href="https://codepen.io/Palavi-Prasad/full/YPzEPNG" target="_blank">Play Hangman</a>
+      </div>
+
+      <div class="project">
+        <h3>Source Citing Tool 📖</h3>
+        <p>Tool to help you cite sources properly in MLA format.</p>
+        <a href="https://codepen.io/Palavi-Prasad/full/pvoLdZj" target="_blank">Try the Citing Tool</a>
+      </div>
+    </section>
+
+    <footer class="box footer">
+      <p>© 2025 Palavi Prasad | Portfolio Website</p>
+    </footer>
+  </div>
 </body>
-</html>    
+</html>
