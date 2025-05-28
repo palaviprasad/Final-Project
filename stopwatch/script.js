@@ -1,4 +1,3 @@
-    <script>
       // this is to track time (hours, minutes, and seconds)
       let [seconds, minutes, hours] = [0, 0, 0];
       let displayTime = document.getElementById("displayTime");
@@ -42,4 +41,3 @@
         [seconds, minutes, hours] = [0, 0, 0];
         displayTime.innerHTML = "00:00:00";
       }
-    </script>
