@@ -1,77 +1,19 @@
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "sidebar content1 content1"
-    "sidebar content2 content2"
-    "footer footer footer";
-  grid-template-columns: 1fr 2fr 2fr;
-  gap: 20px;
-  padding: 20px;
-}
-
-.header {
-  grid-area: header;
-}
-
-.sidebar {
-  grid-area: sidebar;
-  background: #ffb6c1;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.content1 {
-  grid-area: content1;
-}
-
-.content2 {
-  grid-area: content2;
-}
-
-.footer {
-  grid-area: footer;
-}
-
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-  font-size: 20px;
-}
-
-.sidebar li {
-  margin: 10px 0;
-}
-
-.sidebar a {
-  text-decoration: none;
-  color: #d6336c;
-  font-weight: bold;
-}
-
-.sidebar a:hover {
-  text-decoration: underline;
-}
-
-header, .footer, .about, .projects {
-  margin: 0;
-}
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: #ffe6f0;
+  background: #ffe6f0; 
   color: #333;
 }
 
 header {
-  background: #ffb6c1;
+  background: #ffb6c1; 
   color: white;
   padding: 40px 20px;
   text-align: center;
-  font-size: 1.8rem;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+  font-size: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  
 }
 
 .about {
@@ -107,8 +49,14 @@ header {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   margin-bottom: 20px;
-  transition: transform 0.2s
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.project:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
 
 .project h3 {
   margin-top: 0;
@@ -132,7 +80,3 @@ footer {
   margin-top: 40px;
   font-size: 0.9rem;
 }
-.project:hover {
-  transform: translateY(-8px) ;
-}
-
